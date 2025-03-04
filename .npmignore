@@ -1,0 +1,21 @@
+# Source
+lib/
+*.ts
+!*.d.ts
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build tools
+tsconfig.json
+
+# Dependencies
+node_modules/ 

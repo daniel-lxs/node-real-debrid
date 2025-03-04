@@ -1,6 +1,6 @@
-'use strict'
+import { ErrorCodes } from './types';
 
-module.exports = {
+const errorCodes: ErrorCodes = {
 	"-1":	"Internal error",
 	"1":	"Missing parameter",
 	"2":	"Bad parameter value",
@@ -37,4 +37,6 @@ module.exports = {
 	"33":	"Torrent already active",
 	"34":	"Too many requests",
 	"35":	"Infringing file",
-}
+};
+
+export default errorCodes; 
